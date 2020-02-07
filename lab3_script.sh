@@ -8,3 +8,4 @@ read fileName
 echo "Enter a regular expression search pattern"
 read regEx
 grep $regEx $fileName >> email_results.txt
+
